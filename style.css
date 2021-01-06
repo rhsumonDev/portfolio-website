@@ -1,0 +1,249 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Font-family */
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif; */
+
+*{
+
+    margin:0;
+    padding:0;
+
+}
+
+/* Basic Design */
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    font-weight: 500;
+   color: #363958;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    position: relative;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
+
+/* Start Header-Section */
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 5%;
+}
+.half-width img{
+    width: 500px;
+}
+.content-sec{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.content-sec h1 {
+    font-size: 80px;
+    line-height: 80px;
+    padding-bottom: 30px;
+}
+.name-heilight{
+    color: #FF8367;
+}
+
+.content-sec p{
+    padding-bottom: 50px;
+}
+
+.hire-button{
+    background-image: linear-gradient(-90deg, #15416d, #14e6e6);
+    color: white;
+    padding: 22px 60px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+/* End Header-Section */
+
+/* Start Header Section */
+.about-section img{
+    margin-top: -240px;
+    margin-left: 15px;
+}
+.about-section .about-content  {
+    margin-left: 110px;
+}
+
+
+.about-section p{
+    padding: 25px 0px 50px 0px;
+    line-height: 26px;
+   
+}
+.cv-button{
+    background-image: linear-gradient(-90deg, #15416d, #14e6e6);
+    color: white;
+    padding: 22px 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+.cv-button i{
+    margin-right: 8px;
+}
+/* End Header Section */
+
+/* Start Recent-project */
+
+.recent-project{
+    clear: both;
+    padding: 110px 0px 220px 0px;
+    background-color: #F8F9FC;
+}
+.semihalf-width{
+    width: 25%;
+    display: inline-block;
+    margin-left: 6%;
+    box-shadow: 5px 5px 40px rgb(221, 211, 211);
+    height: 360px;
+    border-radius: 15px;
+}
+.semihalf-width img{
+    width: 320px;
+    height: 200px;
+    margin: 15px 0px 0px 8px;
+}
+.recent-project h1{
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 80px;
+    font-size: 50px;
+}
+.recent-project span{
+    color: #F46060;
+   
+}
+.recent-project h2{
+    padding: 20px 1px 20px 9px;
+    color: #363958;
+    font-size: 27px;
+}
+
+.recent-project p{
+    padding: 5px 0px 20px 3px;
+    
+}
+/* End Recent project */
+
+/* Start Chating Section */
+.chat-section{
+   
+    background-image: url(images/main-image/Group_33094_1.png);
+    background-size: cover;
+    width: 909px;
+    height: 225px;
+    margin: 60px  0px 10px 193px;
+
+}
+.chat-section h1{
+    color: white;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+.chat-section .chat-button{
+    background-image: linear-gradient(-90deg, #F56460, #e61b36);
+    color: white;
+    padding: 19px 51px;;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    margin: 31px 92px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+}
+/* End Chating Section */
+
+/**** Bonus Section Contact-from  *****/
+.contact-section{
+    margin-top: 130px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+.half-mini{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+    margin-top: 110px;
+    box-shadow: 3px 3px 11px rgb(226, 221, 221);
+    border-radius: 10px;
+}
+.main-section h2{
+    color: #363958;
+    margin-bottom: 8px;
+    padding-top: 15px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.main-section i{
+    font-size: 50px;
+    background-color: #3E64FF;
+    color: white;
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+    padding: 35px 15px 0px 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+.main-section p{
+    margin-bottom: 30px;
+    color: rgb(116, 104, 104);
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-section #adress-line{
+    color: #3E64FF;
+}
+
+
+
+/**** End Bonus Section Contact-from  *****/
+
+/* Start Footer Section */
+.footer{
+    margin: 86px;
+    text-align: center;
+
+}
+.footer h1{
+    padding: 35px;
+}
+.footer h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: #8F8E94;
+}
+
+.footer img{
+    padding-left: 30px;
+    width: 50px;
+}
+
+.basic-from input {
+padding:20px;
+width: 400px;
+}
+.basic-from #textarea{
+    
+margin-right: 60px;
+}
+/* End Footer Section */
+
