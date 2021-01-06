@@ -66,7 +66,7 @@ p{
 }
 /* End Header-Section */
 
-/* Start Header Section */
+/* Start About Section */
 .about-section img{
     margin-top: -240px;
     margin-left: 15px;
@@ -93,7 +93,7 @@ p{
 .cv-button i{
     margin-right: 8px;
 }
-/* End Header Section */
+/* End About Section */
 
 /* Start Recent-project */
 
@@ -132,7 +132,7 @@ p{
 }
 
 .recent-project p{
-    padding: 5px 0px 20px 3px;
+    padding: 5px 0px 20px 11px;
     
 }
 /* End Recent project */
@@ -221,8 +221,10 @@ p{
     text-align: center;
 
 }
-.footer h1{
+.footer h2{
     padding: 35px;
+    font-size: 42px;
+    color: #363958;
 }
 .footer h3{
     font-family: 'Bebas Neue', cursive;
